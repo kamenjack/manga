@@ -29,23 +29,24 @@ section {
 }
 
 .manga-image {
-  text-align: center;
+  text-align: center;       /* 居中图片和文字 */
   margin: 30px 0;
 }
 
 .manga-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  max-width: 80%;           /* 图片最大宽度为容器的80%，可根据需要调整 */
+  height: auto;             /* 高度自适应 */
+  border-radius: 10px;      /* 可选：圆角 */
+  box-shadow: 0 0 15px rgba(0,0,0,0.3); /* 可选：阴影 */
 }
 
 .manga-image .caption {
-  margin-top: 8px;
-  font-size: 0.9em;
-  color: rgba(255, 255, 255, 0.7);
-  font-style: italic;
+  margin-top: 10px;
+  font-size: 0.9em; 
+  color: rgba(255, 255, 255, 0.8); /* 淡色文字 */
+  font-style: italic;               /* 斜体 */
 }
+
 
 
 

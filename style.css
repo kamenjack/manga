@@ -34,7 +34,7 @@ section {
 }
 
 .manga-image img {
-  max-width: 80%;           /* 图片最大宽度为容器的80%，可根据需要调整 */
+  max-width: 40%;           /* 图片最大宽度为容器的80%，可根据需要调整 */
   height: auto;             /* 高度自适应 */
   border-radius: 10px;      /* 可选：圆角 */
   box-shadow: 0 0 15px rgba(0,0,0,0.3); /* 可选：阴影 */
@@ -46,6 +46,7 @@ section {
   color: rgba(200, 200, 200, 0.8); /* 淡色文字 */
   font-style: italic;               /* 斜体 */
 }
+
 
 
 

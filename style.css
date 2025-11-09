@@ -43,9 +43,10 @@ section {
 .manga-image .caption {
   margin-top: 10px;
   font-size: 0.9em; 
-  color: rgba(255, 255, 255, 0.8); /* 淡色文字 */
+  color: rgba(200, 200, 200, 0.8); /* 淡色文字 */
   font-style: italic;               /* 斜体 */
 }
+
 
 
 

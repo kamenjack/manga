@@ -39,9 +39,20 @@
 </iframe>
 
 </section>
+<div id="comment-section"></div>
 
+<!-- 加载评论区 -->
+<script>
+  fetch('comments.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('comment-section').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading comments:', error));
+</script>
 </body>
 </html>
+
 
 
 
